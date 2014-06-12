@@ -1,0 +1,32 @@
+.widget-lunch .title {
+  margin-bottom: 40px;
+  margin-top: 70px;
+}
+
+.widget-lunch {
+  background-color: #dc5945;
+  color: rgba(255, 255, 255, 1.0);
+  padding: 0 27px;
+  vertical-align: top;
+}
+
+.widget-lunch h3 {
+	font-size: 25px;
+	color: #F1F1F1;
+}
+
+.widget-lunch ol, ul {
+margin: 0;
+text-align: left;
+margin-left: 10px;
+color: rgba(255,255,255,.7);
+}
+
+.widget-lunch ol {
+  list-style-position: inside;
+}
+
+.widget-lunch li {
+  margin-bottom: 6px;
+  padding: 2px 2px 2px 7px;
+}

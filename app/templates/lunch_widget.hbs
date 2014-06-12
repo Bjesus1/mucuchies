@@ -1,0 +1,18 @@
+{{#if title}}
+<h1 class="title">{{title}}</h1>
+{{/if}}
+
+<i class="icon-food icon-background"></i>
+
+{{#if meatDish}}
+<h3>Carne: {{meatDish}}</h3>
+<br>
+{{/if}}
+{{#if meatDish}}
+<h3>Peixe: {{fishDish}}</h3>
+<br>
+{{/if}}
+
+<h1>{{date}}</h1>
+
+{{view Dashboard.LastUpdatedView}}
