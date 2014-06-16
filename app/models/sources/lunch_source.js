@@ -2,10 +2,13 @@
 
 Dashboard.LunchSource = Dashboard.PeriodicSource.extend({
   period: 10000,
+  
 
   dataUpdate: function(callback) {
-   
-    var url = "https://sigarra.up.pt/feup/pt/mob_eme_geral.cantinas";
+
+    var serv = "http://dashboard.int.shiftforward.eu:8090/get?";
+    var lessImportantUrl = "https://sigarra.up.pt/feup/pt/mob_eme_geral.cantinas";
+    var url = serv + "url=" + encodeURI(lessImportantUrl);
 
       $.get(url, function(data) {
         object = JSON.parse(data);

@@ -16,7 +16,7 @@ Dashboard.LunchWidget = Dashboard.Widget.extend({
     return this.get('content').date;
   }.property('content'),
 
-
+  title: "Today's Lunch",
   showLastUpdated: true,
   templateName: 'lunch_widget',
   classNames: ['widget', 'widget-lunch']
