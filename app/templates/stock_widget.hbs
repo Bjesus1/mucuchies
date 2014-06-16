@@ -6,23 +6,21 @@
 
 {{#if content}}
 <table>
-
-<tr>
-  <th>Comp.</th>
-  <th>A.V.</th> 
-  <th>% Chg.</th>
-  <th>T.V.</th>
-</tr>
+  <tr>
+    <th>Comp.</th>
+    <th>A.V.</th>
+    <th>% Chg.</th>
+    <th>T.V.</th>
+  </tr>
 {{#each content}}
-<tr>
-	<td>{{{this.symbol}}}</td>
-	<td>{{{this.BidRealtime}}}</td>
-  	<td>{{{this.PercentChange}}}</td>
-  	<td>{{{this.MarketCapitalization}}}</td>
-</tr>
+  <tr>
+    <td>{{{this.symbol}}}</td>
+    <td>{{{this.BidRealtime}}}</td>
+    <td>{{{this.PercentChange}}}</td>
+    <td>{{{this.MarketCapitalization}}}</td>
+  </tr>
 {{/each}}
 </table>
 {{/if}}
-
 
 {{view Dashboard.LastUpdatedView}}
