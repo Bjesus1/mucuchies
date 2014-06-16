@@ -1,6 +1,5 @@
 /**
- * Shows information about the stock of a publically traded company.
- *
+ * Shows information about the stock of publicly traded companies.
  */
 Dashboard.StockWidget = Dashboard.Widget.extend({
   sourceData: [],
