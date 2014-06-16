@@ -1,5 +1,13 @@
 /**
+ * Provides stock data from the Yahoo API.
  *
+ * Provides as an array of objects in the given format:
+ * {
+ *   symbol: "RUBI",
+ *   LastTradePriceOnly: 10.01,
+ *   PercentChange: "+1.01%",
+ *   MarketCapitalization: "464.4M"
+ * }
  */
 Dashboard.StockSource = Dashboard.PeriodicSource.extend({
   period: 10000,
