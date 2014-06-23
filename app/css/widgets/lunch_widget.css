@@ -1,32 +1,40 @@
-.widget-lunch .title {
-  margin-bottom: 40px;
-  margin-top: 70px;
+.widget-lunch .title{
+  margin-bottom: 10px;
+  margin-top: 25px;
+  font-size: 30px;
+}
+
+.widget-lunch .subTitle{
+  color: rgba(255,255,255,.7);
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 25px;
 }
 
 .widget-lunch {
-  background-color: #dc5945;
+  background-color: #9c4274;
   color: rgba(255, 255, 255, 1.0);
   padding: 0 27px;
   vertical-align: top;
 }
 
 .widget-lunch h3 {
-	font-size: 25px;
-	color: #F1F1F1;
+  margin-bottom: 0.5em;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(255,255,255,.7);
 }
 
-.widget-lunch ol, ul {
-margin: 0;
-text-align: left;
-margin-left: 10px;
-color: rgba(255,255,255,.7);
+.widget-lunch h4 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-.widget-lunch ol {
-  list-style-position: inside;
-}
-
-.widget-lunch li {
-  margin-bottom: 6px;
-  padding: 2px 2px 2px 7px;
+.widget-lunch h5 {
+  margin-bottom: 0.1em;
+  font-size: 15px;
+  text-align: left;
+  color: rgba(255,255,255,.7);
 }

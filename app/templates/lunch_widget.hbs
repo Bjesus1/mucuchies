@@ -1,18 +1,31 @@
 {{#if title}}
-<h1 class="title">{{title}}</h1>
+	<h1 class="title">{{title}}</h1>
 {{/if}}
 
 <i class="icon-food icon-background"></i>
 
-{{#if meatDish}}
-<h3>Carne: {{meatDish}}</h3>
-<br>
-{{/if}}
-{{#if meatDish}}
-<h3>Peixe: {{fishDish}}</h3>
-<br>
+{{#if todaysMeatDish}}
+	<h3>Carne</h3>
+	<h4>{{todaysMeatDish}}</h4>
+	<br>
 {{/if}}
 
-<h1>{{date}}</h1>
+{{#if todaysFishDish}}
+	<h3>Peixe</h3>
+	<h4>{{todaysFishDish}}</h4>
+	<br>
+{{/if}}
 
+{{#if subTitle}}
+	<h1 class="subTitle">{{subTitle}}</h1>
+{{/if}}
+
+{{#if tomorrowsFishDish}}
+	<h5>Carne: {{tomorrowsMeatDish}}</h5>
+{{/if}}
+
+{{#if tomorrowsFishDish}}
+	<h5>Peixe: {{tomorrowsFishDish}}</h5>
+{{/if}}
+	<br>
 {{view Dashboard.LastUpdatedView}}
